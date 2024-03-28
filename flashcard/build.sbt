@@ -5,10 +5,20 @@ ThisBuild / version          := "0.1.0-SNAPSHOT"
 ThisBuild / organization     := "com.example"
 ThisBuild / organizationName := "example"
 
+val javafxVersion = "17.0.1"
+val javafxPlatform = "mac" // Use "mac" for macOS, "linux" for Linux, "win" for Windows
+
 lazy val root = (project in file("."))
   .settings(
     name := "FlashCard",
     libraryDependencies ++= Seq(
+      "org.openjfx" % "javafx-base" % javafxVersion classifier javafxPlatform,
+      "org.openjfx" % "javafx-controls" % javafxVersion classifier javafxPlatform,
+      "org.openjfx" % "javafx-fxml" % javafxVersion classifier javafxPlatform,
+      "org.openjfx" % "javafx-graphics" % javafxVersion classifier javafxPlatform,
+      "org.openjfx" % "javafx-media" % javafxVersion classifier javafxPlatform,
+      "org.openjfx" % "javafx-swing" % javafxVersion classifier javafxPlatform,
+      "org.openjfx" % "javafx-web" % javafxVersion classifier javafxPlatform,
       "org.scalafx" %% "scalafx" % "17.0.1-R26", // Ensure compatibility with Scala 3
       "io.circe" %% "circe-core" % "0.14.1",
       "io.circe" %% "circe-generic" % "0.14.1",
