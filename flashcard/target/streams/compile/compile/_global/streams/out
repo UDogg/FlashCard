@@ -1,0 +1,19 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: /Users/utkarshchoudhary/Desktop/FlashcardApp/flashcard/src/main/scala/AppGUI.scala:12:26 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m12 |[0m  [33mval[0m [36mflashcardList[0m = [33mnew[0m [35mVBox[0m()[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                          ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m     cannot resolve reference to type javafx.scene.layout.type.VBox[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m     the classfile defining the type might be missing from the classpath[0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m  exception occurred while typechecking /Users/utkarshchoudhary/Desktop/FlashcardApp/flashcard/src/main/scala/AppGUI.scala[0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m  An unhandled exception was thrown in the compiler.[0m
+[0m[[0m[0minfo[0m] [0m[0m  Please file a crash report here:[0m
+[0m[[0m[0minfo[0m] [0m[0m  https://github.com/lampepfl/dotty/issues/new/choose[0m
+[0m[[0m[0minfo[0m] [0m[0m  For non-enriched exceptions, compile with -Yno-enrich-error-messages.[0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m     while compiling: /Users/utkarshchoudhary/Desktop/FlashcardApp/flashcard/src/main/scala/AppGUI.scala[0m
+[0m[[0m[0minfo[0m] [0m[0m        during phase: typer[0m
+[0m[[0m[0minfo[0m] [0m[0m                mode: Mode(ImplicitsEnabled)[0m
+[0m[[0m[0minfo[0m] [0m[0m     library version: version 2.13.12[0m
+[0m[[0m[0minfo[0m] [0m[0m    compiler version: version 3.4.0[0m
+[0m[[0m[0minfo[0m] [0m[0m            settings: -bootclasspath /Users/utkarshchoudhary/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.4.0/scala3-library_3-3.4.0.jar:/Users/utkarshchoudhary/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar -classpath /Users/utkarshchoudhary/Desktop/FlashcardApp/flashcard/target/scala-3.4.0/classes:/Users/utkarshchoudhary/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalafx/scalafx_3/17.0.1-R26/scalafx_3-17.0.1-R26.jar:/Users/utkarshchoudhary/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_3/0.14.1/circe-core_3-0.14.1.jar:/Users/utkarshchoudhary/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-generic_3/0.14.1/circe-generic_3-0.14.1.jar:/Users/utkarshchoudhary/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-parser_3/0.14.1/circe-parser_3-0.14.1.jar:/Users/utkarshchoudhary/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_3/0.14.1/circe-numbers_3-0.14.1.jar:/Users/utkarshchoudhary/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_3/2.6.1/cats-core_3-2.6.1.jar:/Users/utkarshchoudhary/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-jawn_3/0.14.1/circe-jawn_3-0.14.1.jar:/Users/utkarshchoudhary/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_3/2.6.1/cats-kernel_3-2.6.1.jar:/Users/utkarshchoudhary/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/simulacrum-scalafix-annotations_3/0.5.4/simulacrum-scalafix-annotations_3-0.5.4.jar:/Users/utkarshchoudhary/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_3/1.1.2/jawn-parser_3-1.1.2.jar -d /Users/utkarshchoudhary/Desktop/FlashcardApp/flashcard/target/scala-3.4.0/classes[0m

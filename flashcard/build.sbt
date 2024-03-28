@@ -1,6 +1,6 @@
-import Dependencies._
+import sbt._
 
-ThisBuild / scalaVersion     := "2.12.8"
+ThisBuild / scalaVersion     := "3.4.0"
 ThisBuild / version          := "0.1.0-SNAPSHOT"
 ThisBuild / organization     := "com.example"
 ThisBuild / organizationName := "example"
@@ -8,7 +8,13 @@ ThisBuild / organizationName := "example"
 lazy val root = (project in file("."))
   .settings(
     name := "FlashCard",
-    libraryDependencies += scalaTest % Test %% "scalafx" % "16.0.0-R24"
+    libraryDependencies ++= Seq(
+      "org.scalafx" %% "scalafx" % "17.0.1-R26", // Ensure compatibility with Scala 3
+      "io.circe" %% "circe-core" % "0.14.1",
+      "io.circe" %% "circe-generic" % "0.14.1",
+      "io.circe" %% "circe-parser" % "0.14.1",
+      "org.scalatest" %% "scalatest" % "3.2.9" % Test // Make sure the version is compatible with Scala 3
+    )
   )
 
 // Uncomment the following for publishing to Sonatype.
